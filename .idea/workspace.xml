@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40407987-a509-4499-b8ac-40c4da9ddccc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/gherkin.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/myStore/Zad1Cucumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/myStore/Zad1CucumberSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/myStore/WarsztatyZadanie2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/myStore/WarsztatyZadanie2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cucumber/features/address-add.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/cucumber/features/address-add.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjects/StoreAddressPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/StoreAddressPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +57,7 @@
       <recent name="pageobjects" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.WarsztatyZadanie2">
+  <component name="RunManager" selected="JUnit.Zad1Cucumber">
     <configuration name="ExampleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SeleniumCourse" />
       <extension name="coverage">
@@ -83,22 +88,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WarsztatyZadanie1.testCreateNewAddress" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumCourse" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="myStore.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="myStore" />
-      <option name="MAIN_CLASS_NAME" value="myStore.WarsztatyZadanie1" />
-      <option name="METHOD_NAME" value="testCreateNewAddress" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="WarsztatyZadanie2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SeleniumCourse" />
       <extension name="coverage">
@@ -109,6 +98,21 @@
       </extension>
       <option name="PACKAGE_NAME" value="myStore" />
       <option name="MAIN_CLASS_NAME" value="myStore.WarsztatyZadanie2" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Zad1Cucumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="myStore.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="myStore" />
+      <option name="MAIN_CLASS_NAME" value="myStore.Zad1Cucumber" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -131,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Zad1Cucumber" />
         <item itemvalue="JUnit.WarsztatyZadanie2" />
         <item itemvalue="JUnit.WarsztatyZadanie1" />
         <item itemvalue="JUnit.ExampleTest" />
         <item itemvalue="JUnit.ZadanieTest" />
-        <item itemvalue="JUnit.WarsztatyZadanie1.testCreateNewAddress" />
       </list>
     </recent_temporary>
   </component>
