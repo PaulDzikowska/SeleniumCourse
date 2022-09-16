@@ -1,25 +1,14 @@
 package myStore;
 
 import org.junit.jupiter.api.*;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-import javax.imageio.ImageIO;
-import java.awt.*;
-import java.awt.image.BufferedImage;
 import java.io.File;
-import java.time.Duration;
-import javax.imageio.ImageIO;
-import java.awt.Robot;
-import java.awt.AWTException;
-
-import java.awt.Rectangle;
-import java.awt.Toolkit;
 import java.io.IOException;
-
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import java.nio.file.*;
+import java.time.Duration;
+import java.time.LocalDateTime;
 
 public class WarsztatyZadanie2 {
 
@@ -42,12 +31,12 @@ public class WarsztatyZadanie2 {
     @AfterEach
     public  void tearDown(){
 
-        //driver.quit();
+        driver.quit();
     }
 
 
     @Test
-    public void testOrder() {
+    public void testOrder() throws IOException {
 
         String email = "klwmlyivgwqvbynsmi@bvhrs.com";
         String pass = "coderslab";
@@ -81,7 +70,6 @@ public class WarsztatyZadanie2 {
         // Wybierz do zakupu Hummingbird Printed Sweater
         WebElement sweaterLink = this.driver.findElement(By.xpath("//*[@id=\"js-product-list\"]/div[1]/article[2]/div/div[1]/h2/a"));
         sweaterLink.click();
-
 
         //Rozwiń listę i wybierz rozmiar M
         WebElement sizeInput = this.driver.findElement(By.xpath("//*[@id=\"group_1\"]"));
@@ -130,10 +118,8 @@ public class WarsztatyZadanie2 {
         orderContinue.click();
 
         //robimy screenshot
-        // nie wiem czemu nie działa mi Robot, mimo tego że jest zaimportowany
-        //Rectangle screenRect = new Rectangle(Toolkit.getDefaultToolkit().getScreenSize());
-        //BufferedImage capture = new Robot().createScreenCapture(screenRect);
-       // ImageIO.write(capture, "bmp", new File("/screenshot.png"));
-
+        File ssFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+        String currentDateTime = LocalDateTime.now().toString().replaceAll(":", "_");
+        Files.copy(ssFile.toPath(), Paths.get("/Users", "paulinadzikowska","Desktop", "screenshot"+ currentDateTime+".png")); //pracuje na macbooku
     }
 }

@@ -5,21 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40407987-a509-4499-b8ac-40c4da9ddccc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cucumber/features/address-add.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/course/selenium/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/drivers/chromedriver" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hotelTests/ExampleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hotelTests/ZadanieTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/mojePaul/paulina.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/myStore/WarsztatyZadanie1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/myStore/WarsztatyZadanie2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pageobjects/StoreAddressPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/taskCheckConfig/GoogleSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/myStore/WarsztatyZadanie2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/myStore/WarsztatyZadanie2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
