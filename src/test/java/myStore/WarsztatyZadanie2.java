@@ -31,7 +31,7 @@ public class WarsztatyZadanie2 {
     @AfterEach
     public  void tearDown(){
 
-        driver.quit();
+       // driver.quit();
     }
 
 
